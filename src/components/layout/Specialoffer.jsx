@@ -21,16 +21,16 @@ const Specialoffer = () => {
             <Heading text='Special Offers' className="text-primary text-[39px] font-semibold mb-12"/>
             <Flex className='flex-wrap lg:flex-nowrap gap-8 justify-center lg:gap-9 xl:gap-10'>
               <div className="w-full sm:w-[45%] lg:w-1/4">
-                <Product src={p1} batch='New' title='Basic Crew Neck Tee' price='$44.00' color='Black'/>
+                <Link to='/shop'><Product src={p1} batch='New' title='Basic Crew Neck Tee' price='$44.00' color='Black'/></Link>
               </div>
               <div className="w-full sm:w-[45%] lg:w-1/4">
-                <Product src={p2} batch='New' title='Basic Crew Neck Tee' price='$44.00' color='Black'/>
+                <Link to='/shop'><Product src={p2} batch='New' title='Basic Crew Neck Tee' price='$44.00' color='Black'/></Link>
               </div>
               <div className="w-full sm:w-[45%] lg:w-1/4">
-                <Product src={p3} batch='New' title='Basic Crew Neck Tee' price='$44.00' color='Black'/>
+                <Link to='/shop'><Product src={p3} batch='New' title='Basic Crew Neck Tee' price='$44.00' color='Black'/></Link>
               </div>
               <div className="w-full sm:w-[45%] lg:w-1/4">
-                <Product src={p4} batch='New' title='Basic Crew Neck Tee' price='$44.00' color='Black'/>
+                <Link to='/shop'><Product src={p4} batch='New' title='Basic Crew Neck Tee' price='$44.00' color='Black'/></Link>
               </div>
             </Flex>
         </Container>

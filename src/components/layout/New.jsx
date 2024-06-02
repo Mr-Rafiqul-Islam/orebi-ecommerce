@@ -12,7 +12,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import NextArrow from '../Icons/NextArrow'
 import PrevArrow from '../Icons/PrevArrow'
-
+import { Link } from 'react-router-dom'
 const New = () => {
   var settings = {
     dots: false,
@@ -62,18 +62,18 @@ const New = () => {
             
             <Slider {...settings} >
 
-              <div className="!w-[100%]">
+              <Link to={'/shop'} className="!w-[100%]">
                 <Product src={p1} batch='New' title='Basic Crew Neck Tee' price='$44.00' color='Black'/>
-              </div>
-              <div className="!w-[100%]">
+              </Link>
+              <Link to={'/shop'} className="!w-[100%]">
                 <Product src={p2} batch='New' title='Basic Crew Neck Tee' price='$44.00' color='Black'/>
-              </div>
-              <div className="!w-[100%]">
+              </Link>
+              <Link to={'/shop'} className="!w-[100%]">
                 <Product src={p3} batch='New' title='Basic Crew Neck Tee' price='$44.00' color='Black'/>
-              </div>
-              <div className="!w-[100%]">
+              </Link>
+              <Link to={'/shop'} className="!w-[100%]">
                 <Product src={p4} batch='New' title='Basic Crew Neck Tee' price='$44.00' color='Black'/>
-              </div>
+              </Link>
             </Slider>
             
         </Container>
