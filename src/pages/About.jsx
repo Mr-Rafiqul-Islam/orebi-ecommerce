@@ -24,19 +24,19 @@ const About = () => {
           </Flex>
         <Heading text='About' className='text-5xl font-bold text-primary '/>
         <Breadcrumb/>
-        <div className="grid grid-cols-2 gap-1 mb-28">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-1 mb-14 md:mb-28">
             <div className="relative">
                 <Link to=''><Image src={brand}/></Link>
-                <Button text='Our Brands' className='text-base px-[97px] py-7 absolute left-1/2 -translate-x-1/2 bottom-[62px]'/>
+                <Button text='Our Brands' className='text-base px-[47px] py-4 lg:px-[97px] lg:py-7 absolute left-1/2 -translate-x-1/2 bottom-[62px]'/>
             </div>
             <div className="relative">
                 <Link to=''><Image src={store}/></Link>
-                <Button text='Our Stores' className='text-base px-[97px] py-7 absolute left-1/2 -translate-x-1/2 bottom-[62px]'/>
+                <Button text='Our Stores' className='text-base px-[47px] py-4 lg:px-[97px] lg:py-7 absolute left-1/2 -translate-x-1/2 bottom-[62px]'/>
             </div>
         </div>
-        <Paragraph text='Orebi is one of the world’s leading ecommerce brands and is internationally recognized for celebrating the essence of classic Worldwide cool looking style.' className='text-[39px] font-normal leading-[52px] mb-[118px]'/>
+        <Paragraph text='Orebi is one of the world’s leading ecommerce brands and is internationally recognized for celebrating the essence of classic Worldwide cool looking style.' className='text-2xl md:text-[39px] font-normal leading-[52px] mb-[50px] md:mb-[118px]'/>
 
-        <div className="grid grid-cols-3 gap-[41px]">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-[41px]">
             <div className="cntnt">
                 <Heading text='Our Vision' className='text-[25px] font-bold leading-9 mb-[11px]'/>
                 <Paragraph text=" Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an printer took a galley of type and scrambled it to make a type specimen book." className='text-third font-normal text-base'/>

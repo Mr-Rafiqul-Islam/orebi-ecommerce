@@ -82,7 +82,7 @@ const toggleView = (type) => {
   setViewType(type);
 };
 
-console.log(viewType);
+// console.log(viewType);
   return (
     <section className="pt-[124px] pb-[140px]">
       <Container>
